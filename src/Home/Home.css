@@ -1,0 +1,96 @@
+.h-container{
+    height: 100%;
+    background-color: black;
+}
+
+p{
+    margin: 0;
+}
+
+svg{
+    width: 2vw !important;
+    height: 2vw !important;
+}
+
+.box-overlay{
+    height:100%;
+}
+
+.grid-overlay{
+   display: inline-table;
+   padding: 14px !important;
+}
+
+.p-card{
+    text-align: center;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.p-card-content{
+    font-size: 0.9rem;
+}
+
+.p-card-inner{
+    margin: 2vw 0;
+    font-size: 1.2vw;
+}
+
+.p-card-buttons{
+    margin-top: 1vw;
+}
+
+.intro{
+    text-align: left;
+    font-size: 1.2vw;
+    padding-left: 40px;
+}
+
+.p-intro-name{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.fr-end{
+text-align: right;
+}
+
+
+.fr-end, .p-intro-name, .abt, .contact{
+    font-size: 2.5vw;
+}
+
+.name{
+    margin:0;
+}
+
+.project-title{
+    font-size: 1.8vw;
+}
+
+.links{
+    place-content: center;
+}
+
+.pill-overlay{
+  justify-content: center;
+}
+
+.pill{
+    background-color: white  !important;
+    font-size: 1vw !important;
+    height: 100% !important;
+    padding: 0.5vw 0 !important;
+}
+
+.greetings{
+    /* background: url(./Heading.png ) center no-repeat;
+    background-size: cover; */
+}
+
+.position{
+    /* background: url(./position.png) center no-repeat;
+    background-size: cover; */
+    background-color: black;
+}
