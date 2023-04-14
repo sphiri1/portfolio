@@ -18,7 +18,7 @@ svg{
 
 .grid-overlay{
    display: inline-table;
-   padding: 14px !important;
+   padding: 2vw !important;
 }
 
 .p-card{
@@ -93,4 +93,28 @@ text-align: right;
     /* background: url(./position.png) center no-repeat;
     background-size: cover; */
     background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .fr-end, .p-intro-name, .abt, .contact{
+        font-size: 4vw;
+    }
+
+    .project-title{
+        font-size: 3.8vw;
+    }   
+    
+    .intro, .p-card-inner{
+        font-size: 2.6vw;
+    }
+
+    .pill{
+        font-size: 2vw !important;
+        padding: 0.9vw 0 !important;
+    }
+
+    svg {
+        width: 3.8vw !important;
+        height: 3.8vw !important;
+    }
 }
